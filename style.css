@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.projectpage {
+    background-color: powderblue;
+}
+
+.resumepage {
+    background-color: powderblue;
+}
+
+.homepage {
+    background-color: powderblue;
+}
+
+.storePhoto {
+    width: 35%;
+    float: right;
+    margin-right: 200px;
+}
+
+.avatar {
+    float: left;
+    height: 500px;
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.container {
+    float: right;
+    margin-right: 300px;
+    margin-top: 150px;
+}
+
+.hello {
+    margin-bottom: 15px;
+}
+
+.developer {
+    margin-bottom: 30px;
+}
+
+.myName {
+    margin-bottom: 5px;
+}
+
+.firstProject {
+    margin-top: 50px;
+}
+
+.navigation {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+
