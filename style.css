@@ -8,6 +8,14 @@ img {
     max-width: 100%;
 }
 
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: linear-gradient(rgb(62, 62, 228), rgba(250, 246, 246, 0.87));
+}
+
 .projectpage {
     /* background-image: linear-gradient( (rgb(5, 121, 5)),
                                         (rgb(162, 228, 123))); */
@@ -21,10 +29,16 @@ img {
     background: linear-gradient(rgba(11, 33, 63, 0.6), rgba(171, 206, 235, 0.6));
 }
 
-.homepage {
-    background: repeating-linear-gradient(rgb(124, 191, 236), blue);
-    margin-left: 15px;
-    margin-right: 15px;
+
+.navbar {
+    padding-bottom: 1px;
+
+}
+
+.navbar1 {
+    width: 800px;
+    text-align: right;
+    padding-right: 45px;
 }
 
 .storePhoto {
@@ -35,28 +49,48 @@ img {
 
 }
 
+.homepageName {
+    font-family: "Gill Sans" , sans-serif;
+    margin-top: 25px;
+}
+
 .avatar {
-    float: left;
+    height: 400px;
+    padding-left: 60px;
+    margin-bottom: 35px;
+    /* float: left;
     height: 500px;
     width: 400px;
     padding-top: 50px;
     padding-left: 150px;
-    background-color: cornsilk;
+    background-color: cornsilk; */
 }
 
-.bio {
+.developer{
+    padding-top: 10px;
+}
+
+.upperhalfhomepage {
+    text-align: justify ;
+}
+
+.aboutMe {
+    text-align: justify;
 
 }
 
 .container {
-    display: flex
-    margin-right: 20px;
-    margin-top: 150px;
-    width: 515px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-family: "Gill Sans" , sans-serif;
+
 }
 
 .hello {
-    margin-bottom: 15px;
+    padding-bottom: 75px;
+    font-size: 50px;
+
 }
 
 .developer {
@@ -68,7 +102,15 @@ img {
     width: 153px;
     margin-left: 30px;
     margin-top: 10px;
-    font-family: fantasy;
+    font-family: "Gill Sans" , sans-serif;
+
+}
+
+.projpagename {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: "Gill Sans" , sans-serif;
+    width: 200px;
 
 }
 
@@ -83,12 +125,16 @@ img {
 .projectDescrip {
     /* width: 1000px;
     margin-left: 50px; */
-    font-family: fantasy;
+    font-family: "Gill Sans" , sans-serif;
     margin-right: 50px;
 }
 
 .projectbody {
     border: 15px;
+}
+
+.projectnavbar {
+    padding-left: 30px;
 }
 
 .navigation {
@@ -97,7 +143,7 @@ img {
     /* margin-left: px; */
     margin-right: 15px;
     width: 333px;
-    font-family: fantasy;
+    font-family: "Gill Sans" , sans-serif;
     float: right;
     text-decoration: underline;
 
@@ -106,7 +152,7 @@ img {
 .title {
     margin-bottom: 30px;
     text-align: center;
-    font-family: cursive;
+    font-family: "Gill Sans" , sans-serif;
     font-size: 2em
 }
 
@@ -125,7 +171,7 @@ img {
     width: 153px;
     margin-left: 30px;
     margin-top: 10px;
-    font-family: fantasy;
+    font-family: "Gill Sans" , sans-serif;
 }
 
 
@@ -137,9 +183,18 @@ img {
 }
 
 .myNameResume {
-    font-style: fantasy;
+    font-family: "Gill Sans" , sans-serif;
     font-size: xx-large;
     margin-bottom: 40px;
+
+}
+
+.associate {
+    padding-bottom: 50px;
+}
+
+.officer {
+    padding-bottom: 50px;
 
 }
 
@@ -174,8 +229,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -183,9 +237,23 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    /* margin-bottom: 100px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.educationcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: "Gill Sans" , sans-serif;
+
+}
+
+.educationtitle {
+    margin-top: 50px;
+    font-family: "Gill Sans" , sans-serif;
 }
 
 .education {
@@ -196,11 +264,17 @@ img {
 
 }
 
+.degree {
+    margin-bottom: 100px;
+}
+
 .educationHeader {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: 0px;
+    margin-top: 50px;
+
 }
 
 .collegeYears {
@@ -216,7 +290,7 @@ img {
 }
 
 .lazyRiver {
-    font-family: fantasy;
+    font-family: "Gill Sans" , sans-serif;
     /* margin-right: 100px; */
 }
 
@@ -229,7 +303,7 @@ img {
 
 .placeholderprojecttitle {
     margin-top: 225px;
-    font-family: fantasy
+    font-family: "Gill Sans" , sans-serif;
 }
 
 .placeholderProjectPhoto {
@@ -240,12 +314,12 @@ img {
 }
 
 .placeholderText {
-    font-family: fantasy;
+    font-family: "Gill Sans" , sans-serif;
 }
 
 .inline {
     display: flex;
-    font-family: fantasy
+    font-family: "Gill Sans" , sans-serif;
 }
 
 @media screen and (min-width: 990px) {
