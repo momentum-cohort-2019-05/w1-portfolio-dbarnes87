@@ -4,25 +4,35 @@
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 .projectpage {
-    background-color: powderblue;
+    /* background-image: linear-gradient( (rgb(5, 121, 5)),
+                                        (rgb(162, 228, 123))); */
+    background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(24, 243, 53, 0.6));
+    margin-left: 15px;
+    margin-right: 15px
+
 }
 
 .resumepage {
-    background-color: powderblue;
+    background: linear-gradient(rgba(11, 33, 63, 0.6), rgba(171, 206, 235, 0.6));
 }
 
 .homepage {
-    background-color: powderblue;
+    background: repeating-linear-gradient(rgb(124, 191, 236), blue);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .storePhoto {
-    width: 50%;
-    height: 500px;
-    float: right;
-    margin-right: 30px;
-    border-radius: 75%;
-    height: fit-content;
+    /* width: 60%; */
+    margin: 50px; 
+    padding-right: 50px;
+   
+
 }
 
 .avatar {
@@ -34,8 +44,12 @@
     background-color: cornsilk;
 }
 
+.bio {
+
+}
+
 .container {
-    float: right;
+    display: flex
     margin-right: 20px;
     margin-top: 150px;
     width: 515px;
@@ -51,7 +65,6 @@
 
 .myNameProjPage {
     margin-bottom: 5px;
-    border-style: dashed solid;
     width: 153px;
     margin-left: 30px;
     margin-top: 10px;
@@ -60,18 +73,33 @@
 }
 
 .firstProject {
-    margin-top: 50px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.projectDescrip {
+    /* width: 1000px;
+    margin-left: 50px; */
+    font-family: fantasy;
+    margin-right: 50px;
+}
+
+.projectbody {
+    border: 15px;
 }
 
 .navigation {
     margin-bottom: 30px;
     margin-top: 10px;
-    margin-left: 15px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    width: 325px;
+    /* margin-left: px; */
+    margin-right: 15px;
+    width: 333px;
     font-family: fantasy;
+    float: right;
+    text-decoration: underline;
 
 }
 
@@ -83,10 +111,12 @@
 }
 
 .infolink {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-family: "Gill Sans" , sans-serif;
-    margin-right: 150px;
-    margin-left: 60px;
+    height: 50px
+    /* margin-right: 150px;
+    margin-left: 60px; */
+    /* padding-top: 75px; */
 }
 
 .myNameResumePage {
@@ -103,6 +133,7 @@
     margin-top: 30px;
     font-family: cursive;   
     margin-bottom: 50px;
+    font-size: 7em
 }
 
 .myNameResume {
@@ -114,4 +145,109 @@
 
 .workExperience {
     margin-bottom: 40px;
+}
+
+.myNameResume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nameEmail {
+    margin-top: 10px;
+   
+}
+
+.blurb {
+    margin-bottom: 40px;
+    font-size: 1.25em;
+}
+
+.bodyResume {
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.empHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.SECU {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.educationHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 0px;
+}
+
+.collegeYears {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerprojectpage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lazyRiver {
+    font-family: fantasy;
+    /* margin-right: 100px; */
+}
+
+.placeholderProject {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+
+}
+
+.placeholderprojecttitle {
+    margin-top: 225px;
+    font-family: fantasy
+}
+
+.placeholderProjectPhoto {
+    width: 325px;
+    height: 300px;
+    margin-top: 40px;
+
+}
+
+.placeholderText {
+    font-family: fantasy;
+}
+
+.inline {
+    display: flex;
+    font-family: fantasy
+}
+
+@media screen and (min-width: 990px) {
+
 }
