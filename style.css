@@ -13,20 +13,21 @@ img {
     flex-wrap: wrap;
     margin-left: 15px;
     margin-right: 15px;
-    background: linear-gradient(rgb(62, 62, 228), rgba(250, 246, 246, 0.87));
+    background: linear-gradient(rgb(43, 160, 238), rgb(213, 219, 233));
 }
 
 .projectpage {
     /* background-image: linear-gradient( (rgb(5, 121, 5)),
                                         (rgb(162, 228, 123))); */
-    background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(24, 243, 53, 0.6));
     margin-left: 15px;
-    margin-right: 15px
+    margin-right: 15px;
+    background: linear-gradient(rgb(43, 160, 238), rgb(213, 219, 233));
+
 
 }
 
 .resumepage {
-    background: linear-gradient(rgba(11, 33, 63, 0.6), rgba(171, 206, 235, 0.6));
+    background: linear-gradient(rgb(43, 160, 238), rgb(213, 219, 233));
 }
 
 
@@ -38,14 +39,16 @@ img {
 .navbar1 {
     width: 800px;
     text-align: right;
-    padding-right: 45px;
+    padding-right: 25px;
+    /* background-color: rgba(177, 22, 22, 0.075) */
 }
 
 .storePhoto {
     /* width: 60%; */
     margin: 50px; 
-    padding-right: 50px;
-   
+    padding-right: 25px;
+    border-radius: 80%;
+
 
 }
 
@@ -82,7 +85,7 @@ img {
 .container {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 25px;
     font-family: "Gill Sans" , sans-serif;
 
 }
@@ -186,15 +189,20 @@ img {
     font-family: "Gill Sans" , sans-serif;
     font-size: xx-large;
     margin-bottom: 40px;
+    /* display: flex;
+    flex-wrap: wrap; */
 
 }
 
 .associate {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+
 }
 
 .officer {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 5px;
 
 }
 
@@ -203,8 +211,8 @@ img {
 }
 
 .myNameResume {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -217,11 +225,31 @@ img {
 .blurb {
     margin-bottom: 40px;
     font-size: 1.25em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.associatetasks {
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+
+}
+
+.officertasks {
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .bodyResume {
     margin-left: 15px;
     margin-right: 15px;
+
+}
+
+.phonenumber {
+    margin-top: 10px;
 
 }
 
@@ -266,6 +294,8 @@ img {
 
 .degree {
     margin-bottom: 100px;
+    padding-top: 5px;
+
 }
 
 .educationHeader {
@@ -320,6 +350,7 @@ img {
 .inline {
     display: flex;
     font-family: "Gill Sans" , sans-serif;
+    border-radius: 80%;
 }
 
 @media screen and (min-width: 990px) {
